@@ -3,7 +3,7 @@ import Vapor
 
 func routes(_ app: Application) throws {
     app.get { req async throws in
-        try await req.view.render("index", ["title": "Испанский Петербург"])
+        try await req.view.render("index", ["title": "Мексиканский Петербург"])
     }
 
     app.get("hello") { req async -> String in

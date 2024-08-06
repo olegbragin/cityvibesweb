@@ -3,16 +3,25 @@
 <head>
   <meta charset="utf-8">
 
+  <link rel="stylesheet" href="/styles/main.css">
   <title>#(title)</title>
 </head>
 
 <body>
-  <h1>#(title)</h1>
-  <div style="position:relative;overflow:hidden;">
-    <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a>
-    <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.348346%2C59.938334&mode=routes&rtext=59.946261%2C30.358349~59.946914%2C30.354648~59.944760%2C30.352070~59.943034%2C30.352340~59.938937%2C30.358987~59.937130%2C30.356840~59.935791%2C30.352367~59.934529%2C30.353885~59.930561%2C30.357370~59.929560%2C30.357442~59.928181%2C30.348459~59.927486%2C30.342710~59.926575%2C30.343033&rtt=pd&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTEwMzQwODAzElLQoNC-0YHRgdC40Y8sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDRg9C70LjRhtCwINCn0LDQudC60L7QstGB0LrQvtCz0L4sIDU3IgoN6N3yQRX5yG9C~~~~~~~~~~~~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQwNDU0OBJW0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0JfQsNCz0L7RgNC-0LTQvdGL0Lkg0L_RgNC-0YHQv9C10LrRgiwgMTEiCg2KvvJBFdC0b0I%2C&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Загородный проспект, 11: как доехать на автомобиле, общественным транспортом или пешком – Яндекс Карты</a>
-    <iframe src="https://yandex.ru/map-widget/v1/?ll=30.348346%2C59.938334&mode=routes&rtext=59.946261%2C30.358349~59.946914%2C30.354648~59.944760%2C30.352070~59.943034%2C30.352340~59.938937%2C30.358987~59.937130%2C30.356840~59.935791%2C30.352367~59.934529%2C30.353885~59.930561%2C30.357370~59.929560%2C30.357442~59.928181%2C30.348459~59.927486%2C30.342710~59.926575%2C30.343033&rtt=pd&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTEwMzQwODAzElLQoNC-0YHRgdC40Y8sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDRg9C70LjRhtCwINCn0LDQudC60L7QstGB0LrQvtCz0L4sIDU3IgoN6N3yQRX5yG9C~~~~~~~~~~~~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQwNDU0OBJW0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0JfQsNCz0L7RgNC-0LTQvdGL0Lkg0L_RgNC-0YHQv9C10LrRgiwgMTEiCg2KvvJBFdC0b0I%2C&z=13" width="1280" height="800" frameborder="1" allowfullscreen="true" style="position:relative;">
-    </iframe>
-  </div>
+  <a class="button" href="#modal">
+    <img src="/images/mexico.jpg"/>
+  </a>
+  <div class="modal" id="modal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <p class="modal-title">#(title)</p>
+          <a class="close-button" href="#">&times;</a>
+        </div>
+        <div class="row-container">
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=30.363226%2C59.927818&mode=routes&rtext=59.944556%2C30.359618~59.946261%2C30.358349~59.946288%2C30.355520~59.944760%2C30.352070~59.943034%2C30.352340~59.938937%2C30.358987~59.937130%2C30.356840~59.935791%2C30.352367~59.934529%2C30.353885~59.933492%2C30.357604~59.931887%2C30.356589~59.930561%2C30.357370~59.929164%2C30.359275~59.928181%2C30.348459~59.927486%2C30.342710~59.926575%2C30.343033~59.927455%2C30.348226&rtt=pd&ruri=ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805917~~~~~~~~~~~~~~~~ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805925&z=15" allowfullscreen="true" class="second-row">
+          </iframe>
+        </div>
+      </div>      
+    </div>
 </body>
 </html>
