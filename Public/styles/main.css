@@ -34,6 +34,10 @@ p {
   border-radius: 0.25rem;
 }
 
+.button img {
+  width: 100%;
+}
+
 .button:hover {
   box-shadow: 0 0 3px dimgray;
 }
