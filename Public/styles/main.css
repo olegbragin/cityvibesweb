@@ -14,7 +14,6 @@ body {
   position: relative;
   padding: 2rem;
   width: auto;
-  width: ;
 }
 
 a {
@@ -94,29 +93,6 @@ p {
   margin-top: 1rem
 }
 
-/* Donate layer */
-.donate {
-  position: fixed;
-  bottom: 0.25rem;
-  right: 0.25rem;
-  border-radius: 0.5rem;
-  background-color: whitesmoke;
-  padding: 1rem;
-  font-weight: bold;
-  color: dimgray;
-}
-
-.donate a {
-  text-decoration: none;
-  color: orangered;
-  border-bottom: 2px solid transparent;
-  transition: 0.35s;
-}
-
-.donate a:hover {
-  border-bottom-color: orangered;
-}
-
 .row-container {
   display: flex;
   flex-direction: column;
@@ -130,4 +106,8 @@ p {
   margin: 0;
   padding: 0;
   position: relative;
+}
+
+.container {
+  width: 100%;
 }
